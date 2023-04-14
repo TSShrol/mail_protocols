@@ -1,9 +1,12 @@
-﻿using MailKit;
+﻿using System;
+using MailKit;
 using MailKit.Net.Imap;
 using MailKit.Search;
 using MailKit.Security;
 using MimeKit;  
 using System.Text;
+using System.Linq;
+using System.Collections.Generic;
 
 namespace _03_imap_mailkit
 {
